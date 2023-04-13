@@ -1,0 +1,11 @@
+.collection-container{
+    display:grid;
+    grid-template-columns:auto;
+    
+}
+@media(min-width:750px){
+    .collection-container{
+        grid-template-columns: 30% 30% 30%;
+        grid-column-gap:5%;
+    }
+}

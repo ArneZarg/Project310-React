@@ -1,0 +1,79 @@
+img{
+    max-width:100%;
+    width:100%;
+}
+.main-layout{
+    max-width:1600px;
+    padding:0 5%;
+    margin:0 auto;
+    padding-top:75px;
+}
+body{
+    overflow-x:hidden;
+}
+a{
+    text-decoration: none;
+    color:#404040;
+}
+button:hover{
+    cursor:pointer;
+}
+.btn{
+    font-size:16px;
+    padding:10px 13px;
+    text-align: center;;
+}
+.btn.btn-primary{
+    border:2px solid #72a951;
+    background-color: #72a951;
+    border-radius:3px;
+    color:#fff;
+    font-weight:700;
+}
+.btn.btn-danger{
+    border:2px solid rgb(168, 33, 33);
+    background-color:rgb(168, 33, 33);
+    color:#fff;
+    border-radius: 3px;
+    font-weight: 700;
+}
+.btn.btn-secondary{
+    border:2px solid rgb(125, 168, 209);
+    background-color:rgb(125, 168, 209);
+    color:#fff;
+    border-radius: 3px;
+    font-weight:700;
+}
+.modal{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index:999999;
+}
+.modal-hidden{
+    display:none;
+}
+.modal-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+}
+.modal-container{
+    position: absolute;
+    z-index: 9999999999;
+    background: #fff;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    top: 100px;
+    max-width: 50vw;
+    left: 50%;
+    transform: translateX(-50%);
+    max-height:50vh;
+    overflow-y: auto;
+}

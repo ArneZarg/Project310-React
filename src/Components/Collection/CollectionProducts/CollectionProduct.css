@@ -1,0 +1,24 @@
+.product-card.shake{
+    margin-bottom:3em;
+    background:#f8f2ec;
+    border-radius: 10px;
+    padding:15px 10px;
+    display:flex;
+    flex-direction: column;
+    text-decoration: none;
+    color:#404040;
+    justify-items:center;
+    align-items: center;
+}
+.product-card{
+    text-decoration: none;
+    color:#404040;
+    justify-items:center;
+    align-items: center;
+}
+.product-card:hover img{
+    opacity:0.8;
+}
+.compare-at-price{
+    text-decoration: line-through;
+}
